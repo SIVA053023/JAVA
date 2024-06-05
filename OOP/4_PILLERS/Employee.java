@@ -1,13 +1,15 @@
-public calss Employee extends Person{
-    private String emp_name;
-    private String emp_loc;
 
-    public employee(String name, String loc){       // this is a constructor
-        this.emp_name=name;
-        this.emp_loc=loc;
+
+public class Employee extends Person {
+    private String emp_Name;
+    private String emp_Loc;
+    public Employee(String name,String loc){
+        super();
+        this.emp_Name=name;
+        this.emp_Loc=loc;
     }
-    public int cal_sal(){
+
+    public int cal_Sal(){
         return 0;
     }
-
 }
