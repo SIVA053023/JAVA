@@ -14,17 +14,14 @@ public class Test {
         System.out.println(s4.equals(s1));  // here no relation so object class executed and there is no content in object class so false
         System.out.println(s1.equals(s2));  // True cause content is same
         System.out.println(s1.equals(s3));  // True cause conetent is same
-        System.err.println(s3.equals(s5));   // true cause content same
+        System.out.println(s3.equals(s5));   // true cause content same
         System.out.println(s1==s5);          // false cause ref is different
         System.out.println(a==c);            // true cause content same
         System.out.println(a==b);           // false cause content is different
         System.out.println(s3==s5);         // true cause content is same and also they both belongs to obeject rahul only
         System.out.println(s1==s2);         // false cause ref id different
-       // System.out.println(s1==s4);       no relation so CE occurs
-       System.out.println(a==i);            // doubt..?
-
-
-
+      // System.out.println(s1==s4);       //no relation so CE occurs
+       System.out.println(a==i);            // doubt..? is about 'a' is a primitive and 'i' is a wraper class, here the thing is both content is same but how it comapre primitive vs object
     }
     
 }
