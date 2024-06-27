@@ -5,7 +5,7 @@ public class Account{
    private  String name;
    private double salary;
 
-   public void set Acc_bal(int acc_bal){
+   public void setacc_bal(int acc_bal){
             this.acc_bal=acc_bal;
    }
    public int getAcc_bal(){
