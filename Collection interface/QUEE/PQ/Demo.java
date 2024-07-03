@@ -9,7 +9,7 @@ class PQ{
       System.out.println(enames);
    
       System.out.println(enames.poll());
-      enames.poll();
+      
       System.out.println(enames);
       enames.offer("Shiva");
       System.out.println(enames);
