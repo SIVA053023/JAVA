@@ -1,4 +1,4 @@
-// what is Functional interface = constains single abstact method
+// what is Functional interface = contains single abstact method
 @FunctionalInterface
 public interface FI {
     public abstract void login();
