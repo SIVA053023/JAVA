@@ -1,0 +1,19 @@
+ Langpackage....>
+                1. Object
+                2.String,SB,String builder
+                3.Wrapper classes..> Auto boxing and unboxing
+                4.Scanner classes
+                5.String_joiner -1.8
+
+   Exception handling  
+        1. Custom Exception
+
+   JS Array
+   Collection Frame_works
+     C(i)        M(i)           Collections and Arrays
+
+java 1.8 features
+     FI and @FI
+     lambda  ()->{}
+     Predefined interface classess
+     Stream API()    ::

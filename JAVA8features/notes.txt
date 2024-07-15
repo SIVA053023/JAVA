@@ -1,0 +1,22 @@
+1. Functional interface => FI is having single abstact method
+2.@FI => functional interface annotation if for to ristrict the FI means having only single abstract method
+3.predefined FI==  > function, predicator,consumer,supplier
+        1.> Function is used when we give input and we expect the output (APPLY() method)
+        2. > predicator is used when we giving input and we expecting the output as BOOLEAN ( TEST() method)
+        3. > Consumer is used when we want to test // that means we give input and we don't expect the output
+        4. > supplier is uded when expect the output without providing the input 
+4. LAMBDA   ()->{}  with this we can achieve the output without accessmodifier,no datatype,no return keyward and object
+5.interface Enhancement  a. Static b. default methods
+               Static--> method is used when we want to enhance the interce with effecting the user implentation classes functionality we go with Static
+               Default--> Default method is used when we want to enhance the interface without effecting the implementation classes functionality we go with the default method
+6.optional classes  -> of nullable()
+                    -> ispresent()
+                    -> get()
+
+7. Date and Time API
+                    .> java.time()
+                    -> java. Date()
+                    ->. date of() effecting
+
+8. Stream ApIs are useful for to application level --> means if we write the code in the sense that we write a loop we need to apply for 
+ something so we use the Streeam API and easy to write the code.                                                      

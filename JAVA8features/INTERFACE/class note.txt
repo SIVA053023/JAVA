@@ -1,0 +1,2 @@
+From 1.5 java onwards it has static and default methods too.
+before the 1.5 interface only have Abstract methods( abstract method means no declaration)
