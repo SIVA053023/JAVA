@@ -6,14 +6,18 @@ abstract class Page{
     
 }
 
-abstract class Two extends Page{
+ class Two extends Page{
+   public void m1(){
+       System.out.println("it is a abstaract example");   // declaration is must if you want to execute the abstact method
+   }
     public void m2(){}
     
    public static void main(String[] args){
 
-      abstract Two a1=new Two();  // child reference required to execute the abstract class. here child is responsible
+       Two a1=new Two();  // child reference required to execute the abstract class. here child is responsible
        a1.m1();
        a1.m2();   
+      //  System.out.println("it is a abstaract example");
    }   
 
 }
