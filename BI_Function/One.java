@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
+import java.util.function.Supplier;
 
 class test{
     public static void main(String[] args) {
@@ -12,7 +13,11 @@ class test{
 
         BiPredicate<String,String> one=(a,b)->a.length()==b.length();
         System.out.println(one.test("Siva", "krishna"));                   // output= false
-        
+
+        Supplier<Integer> two=()->7489;
+        System.out.println(two.get());
+
+
 
     }
 }
