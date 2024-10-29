@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
+import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 class test{
@@ -16,6 +17,10 @@ class test{
 
         Supplier<Integer> two=()->7489;
         System.out.println(two.get());
+
+
+        Consumer<String> three=(a)->System.out.println("one");
+        three.accept("ok");
 
 
 
